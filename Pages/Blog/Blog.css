@@ -91,6 +91,7 @@ aside .reseausociaux
 {
   display: flex;
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 aside .reseausociaux p
@@ -227,20 +228,26 @@ background-color: white;
   }
 
 
-aside .identite
-{
-visibility: hidden;
-}
-
-aside .reseausociaux
-{
-  visibility: hidden;
-}
-
-  aside nav
-{
-display: none;
-}
+  aside header
+  {
+   display: none;
+  }
+  
+  
+  
+  aside header.navnouvo
+  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  top: 288px;
+  left: -180px;
+  background-color: white;
+    z-index: 6;
+    padding: 5px 0px 7px 5px;
+    border: 1px solid darkgrey;
+  }
+  
   .container
   {
   width: 100%;

@@ -7,9 +7,3 @@ menuresponsive.addEventListener('click', () => {
     header.classList.toggle('navnouvo');
 
 });
-
-
-
-
-
-

@@ -90,6 +90,7 @@ aside .reseausociaux
 {
   display: flex;
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 aside .reseausociaux p
@@ -171,6 +172,7 @@ display: flex;
 flex-direction: column;
   }
 
+
   aside
   {
   height: 50px;
@@ -180,20 +182,27 @@ justify-content: space-between;
   }
 
 
-aside .identite
+
+aside header
 {
-visibility: hidden;
+ display: none;
 }
 
-aside .reseausociaux
+
+
+aside header.navnouvo
 {
-  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+top: 280px;
+left: -180px;
+background-color: white;
+  z-index: 6;
+  padding: 5px 0px 7px 5px;
+  border: 1px solid darkgrey;
 }
 
-  aside nav
-{
-display: none;
-}
   .container
   {
   width: 100%;
@@ -246,9 +255,9 @@ bottom: -12px;
  
  position: absolute;
  top: 50%;
-right: 50px;
+right: -120px;
 transform: translate(-50%, -50%);
-margin-left: 200px;
+
 }
 
 
