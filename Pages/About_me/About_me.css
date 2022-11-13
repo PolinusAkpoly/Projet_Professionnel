@@ -1,4 +1,4 @@
-*  
+* , ::after , ::before 
 {
 margin: 0px;
 }
@@ -9,14 +9,128 @@ body
   font-family: 'Poppins', sans-serif;
 }
 
-.sect1 .about
+
+section
+{
+display: flex;
+}
+
+aside
+{
+width: 15%;
+height: 645px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+position: fixed;
+
+
+}
+
+aside .identiteresponsive
+{
+  visibility: hidden;
+}
+
+
+aside .menuresponsive
+{
+   display: none;
+}
+
+aside .identite img
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px 0px 10px 0px;
+}
+
+aside .identite span
+{
+color: darkgrey;
+}
+
+aside nav
+{
+  margin-top: 30px;
+}
+
+aside nav ul
+{
+  list-style-type: none;
+  
+}
+
+aside nav ul li
+{
+width: 193px;
+height: 25px;
+border: 1px solid darkgrey;
+margin-left: -45px;
+padding-top: 10px;
+}
+
+aside nav ul li:hover
+{
+background-color: darkgray;
+border-right: 10px solid yellow;
+
+}
+
+
+aside nav ul li a
+{
+  text-decoration: none;
+ color: black;
+ 
+}
+
+
+
+aside .reseausociaux
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+aside .reseausociaux p
+{
+width: 25px;
+height: 25px;
+background-color: darkgrey;
+margin-right: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+hr
+{
+width: 10px;
+height: 1300px;
+background-color: aliceblue;
+border: none;
+margin-left: 190px;
+
+}
+
+.container
+{
+width: 85%;
+height: 645px;
+}
+
+.container .about
 {
   display: flex;
   margin-top: 40px;
 }
 
 
-.sect1 .about h1
+.container .about h1
 {
 color: white;
 background-color: gold;
@@ -27,7 +141,7 @@ padding: 10px 0px 0px 50px;
 margin-right: 20px;
 }
 
-.sect1 .about span
+.container .about span
 {
 color: darkgrey;
 font-size: 12px;
@@ -35,8 +149,7 @@ padding-top: 15px;
 
 }
 
-
-.sect1 article
+.container article
 {
 display: flex;
 flex-wrap: wrap;
@@ -44,34 +157,35 @@ margin-top: 30px;
 justify-content: space-around;
 }
 
-.sect1 article .blogG
+.container article .blogG
 {
 width: 400px;
 }
 
-.sect1 article .blogG h1
+.container article .blogG h1
 {
 line-height: 28px;
 }
 
-.sect1 article .blogG p
+.container article .blogG p
 {
 margin-top: 20px;
 color: rgb(95, 95, 97);
 }
 
-.sect1 article .blogD
+
+.container article .blogD
 {
 width: 400px;
 }
 
-.sect1 article .blogD h1
+.container article .blogD h1
 {
 border-bottom: 2px solid gold;
 width: 112px;
 }
 
-.sect1 article .blogD .temoignage
+.container article .blogD .temoignage
 {
 width: 300px;
 height: 90px;
@@ -83,14 +197,14 @@ padding: 25px ;
 color: rgb(95, 95, 97);
 }
 
-.sect1 article .blogD .imgtemoin 
+.container article .blogD .imgtemoin 
 {
 display: flex;
 margin-top: -35px;
-
+width: 430px;
 }
 
-.sect1 article .blogD .imgtemoin img 
+.container article .blogD .imgtemoin img 
 {
 width: 90px;
 height: 90px;
@@ -98,17 +212,320 @@ border-radius: 50%;
 border: 2px solid rgb(176, 171, 171);
 }
 
-.sect1 article .blogD .imgtemoin .nomtemoin
+.container article .blogD .imgtemoin .nomtemoin
 {
+  padding-left: 10px;
 padding-top: 50px;
 display: flex;
+justify-content: space-between;
+width: 310px;
+
 }
 
-.sect1 article .blogD .imgtemoin .nomtemoin p em
+ .container article .blogD .imgtemoin .nomtemoin p em
 {
   color: rgb(95, 95, 97);
   font-size: 13px;
 }
+
+.container article .blogD .imgtemoin .nomtemoin .chevron span
+{
+ background-color: rgb(233, 233, 237);
+width: 20px;
+height: 20px;
+margin-left: 5px;
+padding: 3px;
+}
+
+.container .services h1
+{
+  border-bottom: 3px solid gold;
+width: 100px;
+margin: 50px 0px 20px 62px;
+}
+
+.container .service 
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.container .services .typeservice
+{
+width: 150px;
+height: 200px;
+text-align: center;
+
+}
+
+.container .services .typeservice p
+{
+ color: rgb(95, 95, 97);
+}
+
+.container .services .typeservice h3
+{
+  font-size: 15px;
+  margin: 15px 0px 10px 0px;
+}
+
+.container .services .typeservice i
+{
+  font-size: 50px;
+  
+}
+
+
+.container .clients h1
+{
+  border-bottom: 3px solid gold;
+width: 80px;
+margin: 50px 0px 20px 62px;
+}
+
+.container .clients .logoclients
+{
+  margin-left: 20px;
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.container .clients .logoclients p img
+{
+  width: 90px;
+height: 90px;
+
+}
+
+.container .funfacts h1
+{
+  border-bottom: 3px solid gold;
+width: 115px;
+margin: 50px 0px 20px 62px;
+}
+
+.container .funfact 
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.container .funfacts .funfact .fun
+{
+width: 130px;
+height: 120px;
+text-align: center;
+background-color: rgb(236, 236, 244);
+padding-top: 10px;
+margin-bottom: 20px;
+box-shadow: 5px 5px 10px rgb(202, 202, 204);
+}
+
+.container .funfacts .funfact .fun p
+{
+ color: goldenrod;
+}
+
+.container .funfacts .funfact .fun h3
+{
+  font-size: 15px;
+  margin: 15px 0px 10px 0px;
+}
+
+.container .funfacts .funfact .fun i
+{
+  font-size: 50px;
+  
+}
+
+
+
+
+
+
+
+
+@media (max-width:1000px)
+{
+    
+  section
+  {
+display: flex;
+flex-direction: column;
+  }
+
+  aside
+  {
+  height: 50px;
+  width: 100%;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+  }
+
+
+aside .identite
+{
+visibility: hidden;
+}
+
+aside .reseausociaux
+{
+  visibility: hidden;
+}
+
+  aside nav
+{
+display: none;
+}
+  .container
+  {
+  width: 100%;
+  height: 595px;
+  }
+
+aside .identiteresponsive
+{
+  visibility: visible;
+  width: 150px;
+ margin-left: 0px;
+}
+
+aside .menuresponsive
+{
+  display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+}
+
+aside .menuresponsive::before
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px black ;
+
+}
+
+aside .menuresponsive::after   
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+hr
+{
+width: 100%;
+margin-left: 0px;
+height: 58px;
+}
+
+
+.container .about
+{
+  
+  margin-top: 60px;
+}
+
+
+
+.container article .blogD h1
+{
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

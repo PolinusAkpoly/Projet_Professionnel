@@ -1,0 +1,332 @@
+* , ::after , ::before 
+{
+margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+section
+{
+display: flex;
+}
+
+aside
+{
+width: 15%;
+height: 645px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+position: fixed;
+}
+
+aside .identiteresponsive
+{
+  visibility: hidden;
+}
+
+
+aside .menuresponsive
+{
+   display: none;
+}
+
+aside .identite img
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px 0px 10px 0px;
+}
+
+aside .identite span
+{
+color: darkgrey;
+}
+
+aside nav
+{
+  margin-top: 30px;
+}
+
+aside nav ul
+{
+  list-style-type: none;
+  
+}
+
+aside nav ul li
+{
+width: 193px;
+height: 25px;
+border: 1px solid darkgrey;
+margin-left: -45px;
+padding-top: 10px;
+}
+
+aside nav ul li:hover
+{
+background-color: darkgray;
+border-right: 10px solid yellow;
+
+}
+
+
+aside nav ul li a
+{
+  text-decoration: none;
+ color: black;
+ 
+}
+
+
+
+aside .reseausociaux
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+aside .reseausociaux p
+{
+width: 25px;
+height: 25px;
+background-color: darkgrey;
+margin-right: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+hr
+{
+width: 10px;
+background-color: aliceblue;
+border: none;
+margin-left: 190px;
+}
+
+.container
+{
+width: 85%;
+
+}
+
+.container .portfolio
+{
+  display: flex;
+  margin-top: 40px;
+}
+
+
+.container .portfolio h1
+{
+color: white;
+background-color: gold;
+width: 85px;
+height: 25px;
+font-size: 18px;
+padding: 10px 0px 0px 50px;
+margin-right: 20px;
+}
+
+.container .portfolio span
+{
+color: darkgrey;
+font-size: 12px;
+padding-top: 15px;
+
+}
+
+.container nav
+{
+display: flex;
+justify-content: center;
+margin: 50px 0px 50px 0px;
+}
+
+.container nav ul
+{
+list-style-type: none;
+}
+
+.container nav ul a
+{
+  text-decoration: none;
+  color: darkgray;
+}
+
+.container nav ul a:hover
+{
+  background-color: gold;
+  color: white;
+  padding: 12px;
+}
+
+
+.container .projets .html 
+{
+display: flex;
+flex-wrap: wrap;
+width: 700px;
+justify-content: space-around;
+margin-left: 190px;
+}
+
+.container .projets .html p img
+{
+width: 200px;
+height: 200px;
+margin-bottom: 30px;
+box-shadow: 4px 4px 6px white;
+}
+
+
+@media (max-width:1000px)
+{
+    
+  section
+  {
+display: flex;
+flex-direction: column;
+  }
+
+  aside
+  {
+  height: 50px;
+  width: 100%;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+  }
+
+
+aside .identite
+{
+visibility: hidden;
+}
+
+aside .reseausociaux
+{
+  visibility: hidden;
+}
+
+  aside nav
+{
+display: none;
+}
+  .container
+  {
+  width: 100%;
+  height: 595px;
+  }
+
+aside .identiteresponsive
+{
+  visibility: visible;
+  width: 150px;
+ margin-left: 0px;
+}
+
+aside .menuresponsive
+{
+  display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+}
+
+aside .menuresponsive::before
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px black ;
+
+}
+
+aside .menuresponsive::after   
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+hr
+{
+width: 100%;
+margin-left: 0px;
+margin-top: 50px;
+height: 5px;
+}
+
+.container .projets .html 
+{
+width: initial;
+
+}
+
+.container .projets .html 
+{
+
+margin-left: 40px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

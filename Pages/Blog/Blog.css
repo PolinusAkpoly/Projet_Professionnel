@@ -1,0 +1,340 @@
+* , ::after , ::before 
+{
+margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+section
+{
+display: flex;
+}
+
+aside
+{
+width: 15%;
+height: 645px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+position: fixed;
+}
+
+aside .identiteresponsive
+{
+  visibility: hidden;
+}
+
+
+aside .menuresponsive
+{
+   display: none;
+}
+
+aside .identite img
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px 0px 10px 0px;
+}
+
+aside .identite span
+{
+color: darkgrey;
+}
+
+aside nav
+{
+  margin-top: 30px;
+}
+
+aside nav ul
+{
+  list-style-type: none;
+  
+}
+
+aside nav ul li
+{
+width: 193px;
+height: 25px;
+border: 1px solid darkgrey;
+margin-left: -45px;
+padding-top: 10px;
+}
+
+aside nav ul li:hover
+{
+background-color: darkgray;
+border-right: 10px solid yellow;
+
+}
+
+
+aside nav ul li a
+{
+  text-decoration: none;
+ color: black;
+ 
+}
+
+
+
+aside .reseausociaux
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+aside .reseausociaux p
+{
+width: 25px;
+height: 25px;
+background-color: darkgrey;
+margin-right: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container
+{
+width: 85%;
+}
+
+hr
+{
+width: 10px;
+background-color: aliceblue;
+border: none;
+margin-left: 190px;
+}
+
+.container
+{
+width: 85%;
+
+}
+
+.container .blog
+{
+  display: flex;
+  margin-top: 40px;
+}
+
+
+.container .blog h1
+{
+color: white;
+background-color: gold;
+width: 85px;
+height: 25px;
+font-size: 18px;
+padding: 10px 0px 0px 50px;
+margin-right: 20px;
+}
+
+.container .blog span
+{
+color: darkgrey;
+font-size: 12px;
+padding-top: 15px;
+
+}
+
+.container .contenublog
+{
+display: flex;
+flex-wrap: wrap;
+margin: 40px 0px 30px 100px ;
+}
+
+
+
+.container .contenublog .travel
+{
+width: 370px;
+height: 300px; 
+box-shadow: 5px 5px 8px darkgrey;
+text-align: center;
+margin: 0px 20px 40px 20px;
+
+}
+
+.container .contenublog .travel img
+{
+width: 370px;
+height: 200px; 
+z-index: 2;
+}
+
+.container .contenublog .travel article
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 35px;
+height: 40px;
+color: white;
+background-color: gold;
+position: relative;
+top: -36px;
+left: 320px;
+z-index: 1;
+}
+
+.container .contenublog .travel p
+{
+color: darkgrey;
+margin-top: -20px;
+}
+
+.container .contenublog .travel h1
+{
+font-size: 17px;
+padding-top: 10px;
+}
+
+
+
+
+
+
+@media (max-width:950px)
+{
+    
+  section
+  {
+display: flex;
+flex-direction: column;
+  }
+
+  aside
+  {
+  height: 50px;
+  width: 100%;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+  }
+
+
+aside .identite
+{
+visibility: hidden;
+}
+
+aside .reseausociaux
+{
+  visibility: hidden;
+}
+
+  aside nav
+{
+display: none;
+}
+  .container
+  {
+  width: 100%;
+  height: 595px;
+  }
+
+aside .identiteresponsive
+{
+  visibility: visible;
+  width: 150px;
+ margin-left: 0px;
+}
+
+aside .menuresponsive
+{
+  display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+}
+
+aside .menuresponsive::before
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px black ;
+
+}
+
+aside .menuresponsive::after   
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+hr
+{
+width: 100%;
+margin-left: 0px;
+margin-top: 50px;
+height: 5px;
+
+}
+
+.container .contenublog
+{
+margin-left: 20px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

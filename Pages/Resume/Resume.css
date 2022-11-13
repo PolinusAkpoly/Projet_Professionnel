@@ -1,0 +1,523 @@
+* , ::after , ::before 
+{
+margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+section
+{
+display: flex;
+}
+
+aside
+{
+width: 15%;
+height: 645px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+position: fixed;
+}
+
+aside .identiteresponsive
+{
+  visibility: hidden;
+}
+
+
+aside .menuresponsive
+{
+   display: none;
+}
+
+aside .identite img
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px 0px 10px 0px;
+}
+
+aside .identite span
+{
+color: darkgrey;
+}
+
+aside nav
+{
+  margin-top: 30px;
+}
+
+aside nav ul
+{
+  list-style-type: none;
+  
+}
+
+aside nav ul li
+{
+width: 193px;
+height: 25px;
+border: 1px solid darkgrey;
+margin-left: -45px;
+padding-top: 10px;
+}
+
+aside nav ul li:hover
+{
+background-color: darkgray;
+border-right: 10px solid yellow;
+
+}
+
+
+aside nav ul li a
+{
+  text-decoration: none;
+ color: black;
+ 
+}
+
+
+
+aside .reseausociaux
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+aside .reseausociaux p
+{
+width: 25px;
+height: 25px;
+background-color: darkgrey;
+margin-right: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+hr
+{
+width: 10px;
+background-color: aliceblue;
+border: none;
+margin-left: 190px;
+
+}
+
+.container
+{
+width: 85%;
+}
+
+.container .resume
+{
+  display: flex;
+  margin-top: 40px;
+}
+
+
+.container .resume h1
+{
+color: white;
+background-color: gold;
+width: 85px;
+height: 25px;
+font-size: 18px;
+padding: 10px 0px 0px 50px;
+margin-right: 20px;
+}
+
+.container .resume span
+{
+color: darkgrey;
+font-size: 12px;
+padding-top: 15px;
+
+}
+
+.contenuresume
+{
+justify-content: space-around;
+margin-top: 40px;
+
+}
+
+.contenuresume .education
+{
+ width: 300px;
+
+}
+
+.contenuresume .education h1
+{
+ border-bottom: 2px solid gold;
+width: 90px;
+}
+
+.contenuresume .education .Contenueducation
+{
+width: 190px;
+
+}
+
+.contenuresume .education .Contenueducation h2
+{
+  color: white;
+  background-color: rgb(40, 149, 149);
+  width: 40px;
+  height: 20px;
+  font-size: 15px;
+  padding: 10px 0px 0px 40px;
+ margin: 30px 0px 15px -10px;
+
+}
+
+.contenuresume .education .Contenueducation article
+{
+  margin-left: 20px;
+}
+
+.contenuresume .education .Contenueducation article span
+{
+  font-size: 12px;
+  color: rgb(170, 175, 180);
+}
+
+.contenuresume .education .Contenueducation article p
+{
+   color: rgb(90, 92, 93);
+   margin-top: 10px;
+}
+
+.contenuresume .experience
+{
+ width: 300px;
+
+}
+
+.contenuresume .experience h1
+{
+ border-bottom: 2px solid gold;
+width: 99px;
+}
+
+.contenuresume .experience .Contenueducation
+{
+width: 190px;
+
+}
+
+.contenuresume .experience .Contenueducation h2
+{
+  color: white;
+  background-color: rgb(40, 149, 149) ;
+  width: 140px;
+  height: 20px;
+  font-size: 15px;
+  padding: 10px 0px 0px 40px;
+ margin: 30px 0px 15px -10px;
+
+}
+
+.contenuresume .experience .Contenueducation article
+{
+  margin-left: 30px;
+}
+
+.contenuresume .experience .Contenueducation article span
+{
+  font-size: 12px;
+  color: rgb(170, 175, 180);
+}
+
+.contenuresume .experience .Contenueducation article p
+{
+   color: rgb(90, 92, 93);
+   margin-top: 10px;
+}
+
+
+.designskill h1
+{
+border-bottom: 2px solid gold;
+width: 119px;
+}
+
+.designskill .design .contenudesign
+{
+margin-top: 20px;
+}
+
+.designskill .design .contenudesign .cligne
+{
+width: 200px;
+height: 9px;
+border: 2px solid gold;
+border-radius: 8px;
+
+}
+
+.designskill .design .contenudesign  .ligne
+{
+
+  width: 170px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+
+.designskill .design .contenudesign  .ligne2
+{
+
+  width: 150px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+.designskill .design .contenudesign  .ligne3
+{
+
+  width: 120px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+
+
+.codingskills h1
+{
+margin-top: 45px;
+}
+
+.codingskills .langages .contenulangages
+{
+margin-top: 20px;
+
+}
+
+.codingskills .langages .contenulangages .cligne
+{
+width: 200px;
+height: 9px;
+border: 2px solid gold;
+border-radius: 8px;
+
+}
+
+.codingskills .langages .contenulangages  .ligne1
+{
+
+  width: 190px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+
+.codingskills .langages .contenulangages  .ligne2
+{
+
+  width: 160px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+.codingskills .langages .contenulangages  .ligne3
+{
+
+  width: 120px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+.codingskills .langages .contenulangages  .ligne4
+{
+
+  width: 100px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+.codingskills .langages .contenulangages  .ligne5
+{
+
+  width: 170px;
+  height: 5px;
+background-color: gold;
+border-radius: 5px;
+margin: 2px 0px 0px 2px;
+}
+
+button 
+{
+  border: 2px solid gold;
+  background: none;
+  padding: 10px 20px 10px 20px;
+  margin: 60px;
+}
+
+
+@media (max-width:1000px)
+{
+    
+  section
+  {
+display: flex;
+flex-direction: column;
+  }
+
+  aside
+  {
+  height: 50px;
+  width: 100%;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+  }
+
+
+aside .identite
+{
+visibility: hidden;
+}
+
+aside .reseausociaux
+{
+  visibility: hidden;
+}
+
+  aside nav
+{
+display: none;
+}
+  .container
+  {
+  width: 100%;
+  height: 595px;
+  }
+
+aside .identiteresponsive
+{
+  visibility: visible;
+  width: 150px;
+ margin-left: 0px;
+}
+
+aside .menuresponsive
+{
+  display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+}
+
+aside .menuresponsive::before
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px black ;
+
+}
+
+aside .menuresponsive::after   
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+hr
+{
+width: 100%;
+margin-left: 0px;
+height: 5px;
+margin-top: 50px;
+}
+
+.contenuresume
+{
+margin-left: 100px;
+}
+
+.contenuresume .experience h1
+{
+ margin-top: 20px;
+}
+
+.designskill h1
+{
+margin-top: 20px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

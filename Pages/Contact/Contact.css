@@ -1,0 +1,401 @@
+* , ::after , ::before 
+{
+margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+section
+{
+display: flex;
+}
+
+aside
+{
+width: 15%;
+height: 645px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+position: fixed;
+
+}
+
+aside .identiteresponsive
+{
+  visibility: hidden;
+}
+
+
+aside .menuresponsive
+{
+   display: none;
+}
+
+aside .identite img
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px 0px 10px 0px;
+}
+
+aside .identite span
+{
+color: darkgrey;
+}
+
+aside nav
+{
+  margin-top: 30px;
+}
+
+aside nav ul
+{
+  list-style-type: none;
+  
+}
+
+aside nav ul li
+{
+width: 193px;
+height: 25px;
+border: 1px solid darkgrey;
+margin-left: -45px;
+padding-top: 10px;
+}
+
+aside nav ul li:hover
+{
+background-color: darkgray;
+border-right: 10px solid yellow;
+
+}
+
+
+aside nav ul li a
+{
+  text-decoration: none;
+ color: black;
+ 
+}
+
+
+
+aside .reseausociaux
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+aside .reseausociaux p
+{
+width: 25px;
+height: 25px;
+background-color: darkgrey;
+margin-right: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container
+{
+width: 85%;
+}
+
+hr
+{
+width: 10px;
+height: 700px;
+background-color: aliceblue;
+border: none;
+margin-left: 190px;
+}
+
+
+.container
+{
+width: 85%;
+
+}
+
+.container .contact
+{
+  display: flex;
+  margin-top: 40px;
+}
+
+
+.container .contact h1
+{
+color: white;
+background-color: gold;
+width: 85px;
+height: 25px;
+font-size: 18px;
+padding: 10px 0px 0px 50px;
+margin-right: 20px;
+}
+
+.container .contact span
+{
+color: darkgrey;
+font-size: 12px;
+padding-top: 15px;
+
+}
+
+.container .contenucontact
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 40px;
+}
+
+.container .contenucontact .blogG
+{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+
+.container .contenucontact .blogG h1
+{
+border-bottom: 3px solid gold;
+width: 146px;
+}
+
+.container .contenucontact .blogG p
+{
+width: 300px;
+line-height: 25px;
+margin: 20px 0px 20px 0px;
+color: rgb(131, 131, 131);
+
+}
+
+.container .contenucontact .blogG .adress
+{
+  margin: 20px 0px 10px 0px;
+}
+
+.container .contenucontact .blogG .adress i
+{
+  margin-right: 20px;
+}
+
+.container .contenucontact .blogD h1
+{
+border-bottom: 3px solid gold;
+width: 157px;
+}
+
+
+.container .contenucontact .blogD form #name
+{
+padding: 7px 50px 7px 6px;
+margin-top: 30px;
+}
+
+.container .contenucontact .blogD form .user
+{
+margin: -28px 0px 20px 170px ;
+color: darkgrey;
+}
+
+.container .contenucontact .blogD form #email
+{
+padding: 7px 50px 7px 6px;
+margin-top: 12px;
+}
+
+.container .contenucontact .blogD form .adressmail
+{
+margin: -28px 0px 20px 170px ;
+color: darkgrey;
+}
+
+.container .contenucontact .blogD form #textarea
+{
+padding: 7px 50px 7px 6px;
+margin-top: 12px;
+}
+
+.container .contenucontact .blogD form .message
+{
+margin: -28px 0px 20px 170px ;
+color: darkgrey;
+}
+
+.container .contenucontact .blogD form .robo
+{
+background-color: rgb(221, 210, 210);
+width: 178px;
+height: 20px;
+border: 2px solid darkgrey;
+display: flex;
+font-size: 13px;
+padding: 10px;
+}
+
+.container .contenucontact .blogD form .robo .petitcadre
+{
+width: 20px;
+height: 20px;
+background-color: white;
+border: 1px solid darkgrey;
+margin-right: 6px;
+}
+
+.container .contenucontact .blogD form #button
+{
+color: darkgrey;
+background-color: white;
+border: 2px solid gold;
+padding: 8px 15px 8px 15px;
+margin-top: 20px;
+}
+
+
+
+
+
+
+@media (max-width:950px)
+{
+    
+  section
+  {
+display: flex;
+flex-direction: column;
+  }
+
+  aside
+  {
+  height: 50px;
+  width: 100%;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+  }
+
+
+aside .identite
+{
+visibility: hidden;
+}
+
+aside .reseausociaux
+{
+  visibility: hidden;
+}
+
+  aside nav
+{
+display: none;
+}
+  .container
+  {
+  width: 100%;
+  height: 595px;
+  }
+
+aside .identiteresponsive
+{
+  visibility: visible;
+  width: 150px;
+ margin-left: 0px;
+}
+
+aside .menuresponsive
+{
+  display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+}
+
+aside .menuresponsive::before
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px black ;
+
+}
+
+aside .menuresponsive::after   
+{
+content:"";
+background-color: black;
+width: 60px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+hr
+{
+width: 100%;
+margin-left: 0px;
+height: 5px;
+margin-top: 50px;
+}
+
+.container .contenucontact .blogD form #button
+{
+margin-bottom: 40px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
